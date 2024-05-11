@@ -2,7 +2,7 @@
 
 ESX = nil
 ESX = exports["es_extended"]:getSharedObject()
-Debug = true
+Debug = false
 
 RegisterNetEvent('esx:playerLoaded',function(xPlayer, isNew, skin)
     TriggerEvent('esx_status:getStatus', 'thirst', function(status)
