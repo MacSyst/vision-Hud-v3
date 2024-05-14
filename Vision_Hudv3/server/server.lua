@@ -1,7 +1,5 @@
 -- Made By Benni (Vision-Service) with <3 for the Community.
 
-ESX = nil
-ESX = exports["es_extended"]:getSharedObject()
 
 local xPlayer = ESX.GetPlayerFromId(source)
 
