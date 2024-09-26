@@ -1,0 +1,209 @@
+:root {
+    --main_color: rgb(140, 0, 255);
+    --main_color_shadow: rgb(140, 0, 255);
+    --tag_color: rgb(255, 255, 255);
+    --tag_shadow_color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.servercontainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+     right: 240px; /* change this */
+}
+
+.id {
+    color: white;
+    text-shadow: 0px 0px 15px white;
+    position: absolute;
+    right: 230px; 
+    top: 55px;
+    display: flex;
+}
+
+.serverid {
+    color: white;
+    text-shadow: 0px 0px 15px white;
+    position: absolute;
+    left: 20px;
+}
+
+.servername {
+    font-size: 30px;
+    color: var(--main_color);
+    text-shadow: 0px 0px 15px var(--main_color_shadow);
+    margin-right: 10px;
+    position: absolute;
+}
+
+.servertag {
+    font-size: 30px;
+    color: var(--tag_color);
+    text-shadow: 0px 0px 15px var(--tag_shadow_color);
+    position: absolute;
+    left: 100px;  /* change this */
+}
+
+.serverid {
+    color: white;
+    text-shadow: 0px 0px 15px white;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.money {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(13, 226, 42));
+    display: flex;
+    justify-content: end;  
+    align-items: center;
+    border-radius: 5px;
+    height: 37px;
+    width: 200px;
+    margin-top: 20px;
+    position: absolute;
+    top: 70px;
+    right: 35px;
+}
+
+.bank {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(226, 98, 13));
+    display: flex;
+    justify-content: end;  
+    align-items: center;
+    border-radius: 5px;
+    height: 37px;
+    width: 200px;
+    margin-top: 10px;
+    position: absolute;
+    top: 120px;
+    right: 35px;
+}
+
+.dirty {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(226, 13, 13));
+    display: flex;
+    justify-content: end;  
+    align-items: center;
+    border-radius: 5px;
+    height: 37px;
+    width: 200px;
+    margin-top: 10px;
+    position: absolute;
+    top: 160px;
+    right: 35px;
+}
+
+.moneyslot, .bankmoney, .dirtymoney {
+    display: flex;
+    align-items: center; 
+}
+
+.moneystatus {
+    margin-right: 7px;
+    color: rgb(26, 73, 8);
+}
+
+.bankslot {
+    margin-right: 7px;
+    color: rgb(90, 34, 6);
+}
+
+.dirtyslot {
+    margin-right: 7px;
+    color: rgb(90, 34, 6);
+}
+
+.moneyicon {
+    margin-right: 5px;
+    background-color: rgba(8, 136, 25, 0.473);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px; 
+}
+
+.bankicon {
+    margin-right: 5px;
+    background-color: rgba(92, 73, 10, 0.473);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.dirtyicon {
+    margin-right: 5px;
+    background-color: rgba(92, 10, 10, 0.473);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.jobbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 980px;
+    left: 290px;
+}
+
+.job {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 15px white;
+    margin-right: 5px;
+    position: absolute;
+    left: 20px;
+}
+
+.jobrank {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 15px white;
+    margin-right: 5px;
+    position: absolute;
+    left: 105px;
+}
+
+.divider {
+    display: inline-block;
+    background-color: rgb(140, 0, 255);
+    width: 3px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 15px;
+    height: 55px;
+    position: absolute;
+}
